@@ -1,23 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Tagam Dev | Landing Page</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanglish</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+            color: #444;
+            background-color: #f3f2f1;
+        }
+        .navbar {
+            background-color: #0078d7;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .navbar-brand {
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .navbar-brand img {
+            max-height: 32px;
+            margin-right: 8px;
+        }
+        .container {
+            max-width: 1024px;
+        }
+        .cta {
+            background-color: #ffffff;
+            border: 1px solid #0078d7;
+            color: #0078d7;
+            font-size: 18px;
+            padding: 10px 25px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-radius: 3px;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .section {
+            padding: 80px 0;
+            text-align: center;
+        }
+        .section:nth-child(odd) {
+            background-color: #f3f2f1;
+        }
+        .section:nth-child(even) {
+            background-color: #e1f1fd;
+        }
+    </style>
 </head>
 <body>
-	<header>
-		<h1>Tagam QR</h1>
-	</header>
-	<section>
-		<h2>Welcome!</h2>
-		<p>Our mission is to optimise service based business’s internal processes to bring best customer experience.</p>
-		<a>contact us bayemirov@gmail.com</a>
-	</section>
-	<footer>
-		<p>&copy; 2023 Company Name. All rights reserved.</p>
-	</footer>
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand" href="#">Spanglish 🍩</a>
+		</div>
+	</nav>
+	
+	<div class="container">
+		<section class="section">
+			<h2>Focus on the lesson, we take care of the notes!</h2>
+		</section>
+		<section class="section">
+			<p>Use our chrome extension to facilitate your online classes with better automated notes.</p>
+			<p>Powered by ChatGPT</p>
+			<a href="https://github.com/13eket" class="cta">GitHub</a>
+		</section>
+		<section class="section">
+			<a href="mailto:bayemirov@gmail.com" class="cta">Contact us</a>
+		</section>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
 </body>
-</html>
-
+</html>	
